@@ -4,6 +4,7 @@
 *, *::before, *::after {
     box-sizing: border-box;
 }
+
 :root {
     --bg-color: var(--color-light-gray, #f4f4f4);
     --text-color: var(--color-dark-gray, #333333);
