@@ -12,6 +12,7 @@
   "dependencies": {
     "@fontsource-variable/anek-tamil": "^5.2.7",
     "@fontsource-variable/victor-mono": "^5.2.8",
+    "@fontsource/lato": "^5.2.7",
     "astro": "^4.0.0",
     "prismjs": "^1.30.0"
   }
