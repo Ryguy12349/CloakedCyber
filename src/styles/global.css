@@ -136,6 +136,10 @@ h2 {
     margin-top: 40px;
 }
 
+h3 {
+    font-weight: bold;
+}
+
 /* Wireframe Placeholders */
 .placeholder-box {
     border: 2px dashed var(--wireframe-border);
@@ -216,7 +220,7 @@ th {
 
 .type-preview h1 { margin-top: 0; font-size: 2.5em; }
 .type-preview h2 { border: none; font-size: 2em; margin-top: 0;}
-.type-preview h3 { font-size: 1.5em; }
+.type-preview h3 { font-size: 1.5em; font-weight: 500; }
 .type-preview p { font-size: 1em; }
 
 .image-grid {
