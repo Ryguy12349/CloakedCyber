@@ -7,7 +7,7 @@ export const brandSettings = {
             // Logo variations
             { 
                 name: "Primary - Logo - Light", 
-                src: "assets/logo/cloaked_cyber_colored_logo.svg", // Add image path
+                src: "/assets/logo/cloaked_cyber_colored_logo.svg", // Add image path
                 bg: "#ffffff", 
                 darkText: true,
                 // description: "Use this version in thinner spaces with a white or light backgrounds.",
@@ -15,7 +15,7 @@ export const brandSettings = {
             },
             { 
                 name: "Primary - Logo - Dark", 
-                src: "assets/logo/cloaked_cyber_colored_logo.svg", // Add image path
+                src: "/assets/logo/cloaked_cyber_colored_logo.svg", // Add image path
                 bg: "var(--color-rich-black)", 
                 darkText: false,
                 // description: "Use this version in thinner spaces with a dark or brand-colored backgrounds.",
@@ -23,7 +23,7 @@ export const brandSettings = {
             },
             { 
                 name: "Monochrome - Logo - Black - Black", 
-                src: "assets/logo/cloaked_cyber_black_logo.svg", // Add image path
+                src: "/assets/logo/cloaked_cyber_black_logo.svg", // Add image path
                 bg: "#ffffff", 
                 darkText: true,
                 // description: "For thinner spaces with a black and white print or single-color applications.",
@@ -31,7 +31,7 @@ export const brandSettings = {
             },
             { 
                 name: "Monochrome - Logo - White", 
-                src: "assets/logo/cloaked_cyber_white_logo.svg", // Add image path
+                src: "/assets/logo/cloaked_cyber_white_logo.svg", // Add image path
                 bg: "var(--color-deep-black)", 
                 darkText: false,
                 // description: "For thinner spaces with a dark backgrounds where color is not permitted.",
@@ -41,7 +41,7 @@ export const brandSettings = {
             // Wordmark variations
             {
                 name: "Primary - Wordmark - Light", 
-                src: "assets/logo/cloaked_cyber_colored_black_wordmark.svg", // Add image path
+                src: "/assets/logo/cloaked_cyber_colored_black_wordmark.svg", // Add image path
                 bg: "#ffffff", 
                 darkText: true,
                 // description: "Use this version in thinner spaces with a white or light backgrounds.",
@@ -49,7 +49,7 @@ export const brandSettings = {
             },
             { 
                 name: "Primary - Wordmark - Dark", 
-                src: "assets/logo/cloaked_cyber_colored_white_wordmark.svg", // Add image path
+                src: "/assets/logo/cloaked_cyber_colored_white_wordmark.svg", // Add image path
                 bg: "var(--color-rich-black)", 
                 darkText: false,
                 // description: "Use this version in thinner spaces with a dark or brand-colored backgrounds.",
@@ -57,7 +57,7 @@ export const brandSettings = {
             },
             { 
                 name: "Monochrome - Wordmark - Black", 
-                src: "assets/logo/cloaked_cyber_black_wordmark.svg", // Add image path
+                src: "/assets/logo/cloaked_cyber_black_wordmark.svg", // Add image path
                 bg: "#ffffff", 
                 darkText: true,
                 // description: "For thinner spaces with a black and white print or single-color applications.",
@@ -65,7 +65,7 @@ export const brandSettings = {
             },
             { 
                 name: "Monochrome - Wordmark - White", 
-                src: "assets/logo/cloaked_cyber_white_wordmark.svg", // Add image path
+                src: "/assets/logo/cloaked_cyber_white_wordmark.svg", // Add image path
                 bg: "var(--color-deep-black)", 
                 darkText: false,
                 // description: "For thinner spaces with a dark backgrounds where color is not permitted.",
@@ -73,7 +73,7 @@ export const brandSettings = {
             }
         ]
     },
-    favicon: "assets/logo/cloakedcyber_profile_pic.png", // Add favicon URL here
+    favicon: "/assets/logo/cloakedcyber_profile_pic.png", // Add favicon URL here
     typography: {
         primaryFont: "Victor Mono Variable",  // this will automatically get set as the page font
         secondaryFont: "Lato", // dont be a bum, go find some google/adobe fonts you like. just make sure to load them in the stylesheet or Layout astro file 
