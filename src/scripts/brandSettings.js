@@ -15,7 +15,7 @@ export const brandSettings = {
             },
             { 
                 name: "Primary - Logo - Dark", 
-                src: "public/assets/logo/cloaked_cyber_colored_logo.svg", // Add image path
+                src: "/public/assets/logo/cloaked_cyber_colored_logo.svg", // Add image path
                 bg: "var(--color-rich-black)", 
                 darkText: false,
                 // description: "Use this version in thinner spaces with a dark or brand-colored backgrounds.",
